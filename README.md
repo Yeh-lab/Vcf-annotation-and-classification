@@ -15,6 +15,6 @@ Vcf files annotation and classification
 
 3.	Somatic vcf file 
 
-   a.	Remove Pathogenic SNV, Germline and SNVs ‘10X_HOMOPOLYMER_UNPHASED_INSERTION|10X_RESCUED_MOLECULE_HIGH_DIVERSITY’. 
+   a.	Remove Pathogenic SNV, Germline and SNVs with ‘10X_HOMOPOLYMER_UNPHASED_INSERTION|10X_RESCUED_MOLECULE_HIGH_DIVERSITY’. 
 
    b.	Remove SNVs in UTR3|UTR5|downstream|intergenic|intronic|ncRNA|upstream, except for TERT, SDHD and NFKBIE (upstream). 
